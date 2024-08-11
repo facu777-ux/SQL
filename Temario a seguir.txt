@@ -1,0 +1,119 @@
+1. Introducción a SQL
+¿Qué es SQL?
+Historia y evolución de SQL.
+Relación entre SQL y bases de datos relacionales.
+
+2. Consultas Básicas
+SELECT: Sintaxis básica.
+WHERE: Filtrado de datos.
+ORDER BY: Ordenación de resultados.
+LIMIT: Restringir el número de resultados.
+
+3. Operaciones de Manipulación de Datos (DML)
+INSERT INTO: Inserción de datos.
+UPDATE: Actualización de datos.
+DELETE: Eliminación de datos.
+MERGE: Combinación de inserciones y actualizaciones.
+
+4. Consultas Avanzadas
+GROUP BY y HAVING: Agrupación y filtrado de grupos.
+Funciones Agregadas: COUNT, SUM, AVG, MIN, MAX.
+Subconsultas (Subqueries): Consultas anidadas.
+Uniones (Joins):
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL OUTER JOIN
+SELF JOIN
+UNION y UNION ALL: Combinación de resultados de múltiples consultas.
+
+5. Creación y Gestión de Tablas
+CREATE TABLE: Creación de tablas.
+ALTER TABLE: Modificación de tablas existentes.
+DROP TABLE: Eliminación de tablas.
+Tipos de datos en SQL: INT, VARCHAR, DATE, DECIMAL, etc.
+
+6. Integridad de Datos
+PRIMARY KEY: Clave primaria.
+FOREIGN KEY: Clave foránea.
+UNIQUE: Restricción de unicidad.
+NOT NULL: Restricción de no nulo.
+CHECK: Validación de datos.
+DEFAULT: Valores por defecto.
+
+7. Índices
+CREATE INDEX: Creación de índices.
+UNIQUE INDEX: Índices únicos.
+Uso y optimización de índices.
+
+8. Vistas (Views)
+CREATE VIEW: Creación de vistas.
+Materialized Views: Vistas materializadas (en bases de datos que las soportan).
+Manejo de vistas.
+
+9. Funciones y Procedimientos Almacenados
+Funciones de una sola fila: UPPER, LOWER, CONCAT, SUBSTRING, etc.
+Funciones de fecha: NOW, DATEADD, DATEDIFF, etc.
+Procedimientos almacenados (Stored Procedures).
+Funciones definidas por el usuario.
+
+10. Triggers
+CREATE TRIGGER: Creación de disparadores.
+AFTER y BEFORE: Ejecución antes o después de un evento.
+Aplicaciones comunes de triggers.
+
+11. Control de Transacciones
+BEGIN TRANSACTION: Inicio de una transacción.
+COMMIT: Confirmación de transacción.
+ROLLBACK: Reversión de transacción.
+ACID: Principios de las transacciones.
+
+12. Seguridad y Control de Acceso
+GRANT y REVOKE: Concesión y revocación de permisos.
+Roles y usuarios.
+Control de acceso a nivel de tabla, vista y columna.
+
+13. Optimización de Consultas
+Explicación del Plan de Ejecución (EXPLAIN)
+Índices y optimización.
+Evitar consultas N+1.
+Uso eficiente de subconsultas y uniones.
+
+14. Gestión de Esquemas
+Schemas en SQL: Organización de objetos de base de datos.
+CREATE SCHEMA: Creación de esquemas.
+Gestión y uso de esquemas.
+
+15. Normalización de Bases de Datos
+Conceptos de Normalización: 1FN, 2FN, 3FN, BCNF.
+Desnormalización: Ventajas y desventajas.
+Identificación de redundancias y dependencias.
+
+16. Backups y Recuperación
+BACKUP DATABASE: Creación de copias de seguridad.
+RESTORE DATABASE: Recuperación de bases de datos.
+Estrategias de backup.
+
+17. Migración de Datos
+Importación y exportación de datos: LOAD DATA, BULK INSERT.
+ETL (Extract, Transform, Load): Procesos de migración.
+
+18. Consultas Recursivas
+CTE (Common Table Expressions): Expresiones comunes de tabla.
+Consultas recursivas con CTE.
+
+19. Funciones de Ventana (Window Functions)
+OVER(): Aplicar funciones de agregación sin agrupar los resultados.
+PARTITION BY: Agrupación dentro de una partición.
+
+20. Consultas Temporales
+Tablas Temporales: CREATE TEMPORARY TABLE.
+Tablas derivadas y variables de tabla.
+
+21. Manejo de Errores
+TRY...CATCH: Mecanismo de manejo de errores en SQL.
+Validación de datos y control de errores.
+
+22. Ejemplos y Prácticas
+Ejercicios prácticos de cada tema.
+Proyectos pequeños para aplicar los conceptos aprendidos.
